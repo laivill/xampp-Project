@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    margin-top: 2%;
+    height: 70vh;
+}
+.qrbox{
+    margin-top: 3%;
+    margin-left: 11%;
+    border: 5px solid rgb(255, 255, 255);
+    width: 30%;
+
+}
+.wel{
+    display:flex;
+    flex-direction: column;
+    width: 45%;
+    height: 70vh;
+    background-image: url(isulogo.png);
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    border: 12px solid lightskyblue;
+    align-content: center;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+.info{
+    width: 100%;
+    padding-top: 3%;
+    background-color: rgba(255, 255, 255, 0.904);
+    height: 100vh;
+
+}
+.infobox{
+    width: 100%;
+    height: 50vh;
+
+}
+label{
+    margin-right: 3%;
+    padding-left: 3%;
+    text-align: left;
+    font-size: 160%;
+  
+}
+img{
+    width: 100%;
+    height: auto;
+}
+button{
+    background-color: #2888d1;
+    color: white;
+    
+    width: 25%;
+    height: 6vh;
+    border-radius: 5px;
+    border: 0;
+
+}
+.sid{
+    margin-top: 5%;
+    margin-left: 6%;
+}
+.studId{
+    width: 65%;
+    height: 6vh;
+    border-radius: 5px;
+    border: 2px solid #2888d1;
+    padding-left: 10px;
+}
+
+p{
+    line-height: 180%;
+}
+
+h2{
+     font-size: 180%;
+     font-family:fantasy;
+     color: #0566b1;
+     text-align: center;
+     line-height: 200%;
+     background-color: rgba(255, 255, 255, 0.904);
+     height: 10vh;
+}
+input{
+    height: 5vh;
+    margin-bottom: 3%;
+    padding-left: 10px;
+    border: 2px solid #2888d1;
+    border-radius: 5px;
+}
+
+.name{
+    margin-left: 2.7%;
+    width: 65%;
+    }
+.college{
+    margin-left: 0.1%;
+    width: 75%;
+    }
+.course{
+    margin-left: 1.1%;
+    width: 60%;
+    }
+.year{
+    margin-left: 4.8%;
+    width: 15%;
+    }
+.date{
+    margin-left: 4.7%;
+    width: 25%;
+}
+.time{
+    margin-left: 0%;
+    width: 20%;
+}
+
+.qr{
+    width: 100%;
+}
+video{
+    width: 100%;
+    border-radius: 5px;
+    border: 10px solid #2888d1;
+}

@@ -1,0 +1,190 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(240, 240, 232);
+}
+.box1{
+    display: flex;
+    width: 100%;
+    height: 55vh;
+
+}
+.stud{
+border: 1px solid lightgray;
+width: 65%;
+height: 50vh;
+margin-top: 1%;
+margin-left: 1%;
+background-color: #ecf6ff;
+border-radius: 10px;
+}
+
+input{
+    background: white;
+    border: none;
+    outline: none;
+    border:2px solid #2888d1;
+    color: #135588;
+    border-radius: 6px;
+    padding-left: 10px;
+    margin-top: 13px;
+    height: 5vh;
+    font-size: medium;
+}
+.container{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    margin-bottom: 15px;
+}
+h2{
+    margin-left: 40% ;
+    margin-top: 1%;
+}
+.inputName{
+    width: 20%;
+    height: 100%;
+    text-align: right;
+    margin-right: 1%;
+    margin-left: 2%;
+}
+.inputbox{
+    width: 80%;
+    height: 100%;
+    text-align: left;
+}
+p{
+    margin-top: 19px ;
+    padding-right: 4px;
+    font-size: x-large;
+    font-weight: 600;
+}
+.studId{
+width: 30%;
+}
+.name{
+    width: 88%;
+    }
+.college{
+    width: 88%;
+    }
+.course{
+    width: 60%;
+    }
+.year{
+    width: 20%;
+    }
+
+.bookacs{
+border: 1px solid lightgray;
+width: 30%;
+height: 50vh;
+margin-top: 1%;
+margin-left: 1%;
+background-color: #ecf6ff;
+border-radius: 10px;
+text-align: center;
+}
+.enter{
+    margin: 0;
+    margin-top: 3%;
+    font-weight: 900;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+h4{
+    margin-top: 6%;
+    font-style: italic;
+}
+
+.box2{
+    border-top: 1px solid lightgray;
+    width: 100%;
+    height: 45vh;
+}
+
+button{
+    background-color: #2888d1;
+        color: white;
+        border-radius: 8px;
+        border: #287fd1 1px solid;
+        width: 35%;
+        height: 4vh;
+        font-weight: 600;
+        font-size: medium;
+        margin-top: 6%;
+}
+
+.sac{
+    border:1px solid black;
+    width: 80%;
+    height: 7vh;
+    margin: 0;
+    text-align: center;
+}
+.sac2{
+    border:1px solid black;
+    width: 80%;
+    height: 7vh;
+    margin: 0;
+    text-align: center;
+
+}
+.sac2:hover{
+    background-color: #a3d6ff;
+
+}
+
+.tbox{
+    overflow-y: auto;
+    max-height: 33vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0;
+    border-bottom: 1px solid rgba(14, 13, 13, 0.349);
+    border-right: rgba(14, 13, 13, 0.349) 1px solid;
+    border-radius: 10px;
+}
+table{
+    border-collapse: collapse;
+    border: none;
+    width:100%;
+    max-height: 33vh;
+    align-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+thead{
+    background-color: #1a4364ec;
+}
+.head1{border-top-left-radius: 10px;}
+.head2{border-top-right-radius: 10px;}
+.rows:nth-child(even){
+    background-color: lightgray;
+}
+a{text-decoration: none;}
+th{
+    width: 14%;
+    height: 5vh;
+    color: white;
+    
+}
+td{
+    width: 14%;
+    height: 5vh;
+    color: gray;
+}
+
+button:hover{
+    background-color: #cde9ff;
+    border: none;
+    outline: none;
+    border: 2px solid #52ABED;
+    color: #135588;
+}
+a:hover{
+    color:#135588;
+}

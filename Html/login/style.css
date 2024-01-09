@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.logoBox{
+width: 40%;
+height: 100vh;
+background: #0069B8;
+}
+.logoBox .logoBig{
+height: 50vh;
+width: 60%;
+margin: 25% 20%;
+}
+
+
+.container{
+display: flex;
+width: 60%;
+height: 100vh;
+align-items: center;
+justify-content: center;
+}
+.container form{
+    width: 65%;
+}
+.container h1{
+    text-align: center;
+}
+.container h3{
+    color: #2888d1;
+    margin: 0 20%;
+}
+.container .input-box{
+    position: relative;
+    width: 80%;
+    padding-left: 10%;
+    height: 50px;
+    margin: 10px 10%;
+}
+
+.container input{
+    width: 90%;
+    height: 100%;
+    background: white;
+    border: none;
+    outline: none;
+    border:2px solid #2888d1;
+    color: #135588;
+    padding-left: 10%;
+    border-radius: 5px;
+}
+.input-box input::placeholder{
+    color: #5fafec;
+}
+.input-box i{
+    color: #52ABED;
+    position: absolute;
+    left: 15%;
+    top:28%;
+    transform: translateY(-50);
+    font-size: 25px;
+}
+input:hover{
+    background-color: #ebf6ff;
+}
+.container .btn{
+    margin-left: 40%;
+    background-color: #52ABED;
+    border: none;
+    outline: none;
+    border: 2px solid #52ABED;
+    border-radius: 10px;
+    width: 20%;
+    height: 4vh;
+    font-weight: 600 ;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #cde9ff;
+    border: none;
+    outline: none;
+    border: 2px solid #52ABED;
+}
+a:hover{
+    color:#135588;
+}
+.error{
+    background: #f2dede;
+    color: #a94442;
+    padding: 10px;
+    width: 63%;
+    border-radius: 5px;
+    margin: 0 20%;
+}

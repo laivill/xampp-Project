@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(240, 240, 232);
+}
+header{
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: .5%;
+    padding-left: 1%;
+    margin-bottom: 0;
+    background-color: white;
+}
+.box2 {
+    color: #5fafec;
+    display: flex;
+}
+hr{
+    width: 96%;
+    margin-left: 2%;
+}
+.box2 i{
+    font-size: 50px;
+    color:#006cbe;
+}
+
+.tbox{
+    overflow-y: auto;
+    max-height: 70vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-bottom: 1px solid rgba(14, 13, 13, 0.349);
+    border-right: rgba(14, 13, 13, 0.349) 1px solid;
+    border-radius: 10px;
+}
+table{
+    border-collapse: collapse;
+    border: none;
+    width:100%;
+    max-height: 70vh;
+    align-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+thead{
+    background-color: #1a4364ec;
+}
+.head1{border-top-left-radius: 10px;}
+.head2{border-top-right-radius: 10px;}
+.rows:nth-child(even){
+    background-color: lightgray;
+}
+a{text-decoration: none;}
+th{
+    width: 20%;
+    height: 7vh;
+    color: white;
+    
+}
+td{
+    width: 20%;
+    height: 6vh;
+    color: #006cbe;
+}
+.add{
+    height: 9vh;
+}
+.edit{
+    height: 9vh;
+}
+.bookInput{
+    width: 60%;
+    height: 60vh;
+    background: white;
+    margin-top: 5%;
+    margin-left: 20%;
+    border-radius: 10px;
+    font-size: 200;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+}
+.inputbox input{
+    background: white;
+    border: none;
+    outline: none;
+    border:2px solid #2888d1;
+    color: #135588;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-top: 10px;
+    height: 7vh;
+}
+
+.container{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    margin-bottom: 15px;
+}
+.inputName{
+    width: 30%;
+    height: 100%;
+    text-align: right;
+}
+.inputbox{
+    width: 70%;
+    height: 100%;
+    text-align: left;
+}
+p{
+    margin-top: 24px ;
+    padding-right: 4px;
+    font-size: x-large;
+}
+.Accession{
+width: 40%;
+}
+.title{
+    width: 90%;
+    }
+.dateP{
+    width: 55%;
+    }
+.Author{
+    width: 75%;
+    }
+   
+    .cancel{
+        margin-left: 30% ;
+        margin-right: 10px;
+        font-size: large;
+        font-weight: 600 ;
+        border: none;
+        padding-top: 5px;
+        background-color: white;
+        width: 14%;
+        height: 5vh;
+    }
+
+    .save{
+        background-color: #2888d1;
+        color: white;
+        border-radius: 30px;
+        border: #2888d1 1px solid;
+        width: 15%;
+        height: 5vh;
+        font-weight: 700;
+        font-size: large;
+    }
+
+    i:hover{
+        color:#0091ff;
+    }
+    .btn:hover{
+        background-color: #cde9ff;
+        border: none;
+        outline: none;
+        border: 2px solid #52ABED;
+    }
+    a:hover{
+        color:#135588;
+    }
+    input:hover{
+        background-color: #ebf6ff;
+    }
+    .save:hover{
+        background-color: #cde9ff;
+        border: none;
+        outline: none;
+        border: 2px solid #52ABED;
+    }
+    .cancel:hover{
+        background-color: #d6dbdf;
+        border: none;
+        outline: none;
+        border: 2px solid #ffffff;
+        border-radius: 30px;
+        
+    }
+    
+.can{
+text-decoration: none;
+color: rgb(114, 112, 109);
+}
+.error{
+    background: #f2dede;
+    color: #a94442;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.sbook{
+    width: 60%;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 1%;
+    flex-direction: column;
+
+}
+.sbook .search1{
+width: 55%;
+height: 4vh;
+border: none;
+border-radius: 2px;
+border-bottom: solid 1px;
+border-right: solid 1px;
+margin-right: 1%;
+padding-left: 10px;
+}
+
+.del{
+    background-color: #d13328;
+        color: white;
+        border-radius: 10px;
+        border: #2888d1 1px solid;
+        width: 15%;
+        height: 5vh;
+        font-weight: 100;
+        font-size: large;
+        margin-left: 3%;
+}
+.del .can{
+    color:#cde9ff;
+}
+.del:hover{
+    background-color: #cde9ff;
+    border: none;
+    outline: none;
+    border: 2px solid #52ABED;
+    
+}
+.del .can:hover{
+    color: red;
+}
